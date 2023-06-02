@@ -12,10 +12,10 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     padding: 0 124px;
-
+    
     svg {
-      color: ${({ theme }) => theme.COLORS.GRAY_100};
-      font-size: 24px;
+    color: ${({ theme }) => theme.COLORS.PINK};
+    font-size: 24px;
     }
   }
 `

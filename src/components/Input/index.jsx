@@ -1,10 +1,10 @@
-import { Container } from "./styles"
+import { Container, IconContainer, StyledInput } from "./styles"
 
-export function Input({ icon: Icon, ...rest }) {
+export function Input({ icon, ...rest }) {
   return(
     <Container>
-      {Icon && <Icon size={20} />}
-      <input {...rest}/>
+      {icon && <IconContainer>{icon}</IconContainer> }
+      <StyledInput hasIcon={icon ? 1 : 0} {...rest} />
     </Container>
   )
 }

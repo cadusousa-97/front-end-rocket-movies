@@ -34,25 +34,25 @@ export function Profile(){
       <Input 
       placeholder="Nome"
       type="text"
-      icon={FiUser}
+      icon={<FiUser />}
       />
 
       <Input 
       placeholder="E-mail"
       type="text"
-      icon={FiMail}
+      icon={<FiMail />}
       />
 
       <Input 
       placeholder="Senha"
       type="password"
-      icon={FiLock}
+      icon={<FiLock />}
       />
-
+      
       <Input 
       placeholder={"Nova senha"}
       type="password"
-      icon={FiLock}
+      icon={<FiLock />}
       />
 
       <Button title="Salvar"/>
