@@ -1,10 +1,11 @@
 import { styled } from "styled-components";
 
 export const Container = styled.button`
- width: 100%;
+
  color: ${({ theme }) => theme.COLORS.BLACK};
  background-color: ${({ theme }) => theme.COLORS.PINK};
-
+ 
+ width: 340px;
  border-radius: 10px;
  height: 56px;
  border: none;

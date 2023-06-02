@@ -6,6 +6,7 @@ export default {
 
     WHITE: "#F4EDE8",
     PINK: "#FF859B",
+    LOWBRIGHTNESS_PINK: "rgba(255, 133, 155, 0.05)",
 
     GRAY_300: "#666360",
     GRAY_100: "#999591",

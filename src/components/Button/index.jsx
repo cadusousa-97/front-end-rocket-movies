@@ -1,6 +1,6 @@
 import { Container } from './styles'
 
-export function Button({ title, loading = false }) {
+export function Button({ title, loading = false, children }) {
 
   return (
   <Container 
@@ -8,5 +8,6 @@ export function Button({ title, loading = false }) {
     disabled={loading}
   >
     {loading ? 'Carregando...' : title}
+    {children}
   </Container>)
 }

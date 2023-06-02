@@ -1,4 +1,5 @@
-import { Container, Profile } from "./style";
+import { Container, Profile } from "./styles";
+import { Input } from "../Input";
 
 export function Header(){
   return(
@@ -8,9 +9,8 @@ export function Header(){
         <div>
           <h1>RocketMovies</h1>
         </div>
-
-        <input type="text" placeholder="Pesquisar pelo título"/>
-
+        
+      <Input placeholder="Pesquisar pelo título"/>
         <div>
           <strong>Carlos Eduardo</strong>
           <button>Sair</button>
