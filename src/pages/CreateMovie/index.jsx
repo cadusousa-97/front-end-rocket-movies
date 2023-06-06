@@ -1,8 +1,9 @@
 import { Container, Form } from "./styles";
-import { FiArrowLeft } from "react-icons/fi"
+import { FiArrowLeft, FiPlus, FiX } from "react-icons/fi"
 
 import { Header } from "../../components/Header"
 import { Input } from "../../components/Input"
+import { Button } from "../../components/Button/"
 
 export function CreateMovie() {
   return(
@@ -20,6 +21,16 @@ export function CreateMovie() {
       </Form>
 
     <h3>Marcadores</h3>
+
+    <div>
+    <Button title="React"><FiX /></Button>
+    <Button title="Novo marcador"><FiPlus /></Button>
+    </div>
+
+    <div>
+    <Button title="Excluir filme"/>
+    <Button title="Salvar alterações"/>
+    </div>
     </Container>
     </>
   )
