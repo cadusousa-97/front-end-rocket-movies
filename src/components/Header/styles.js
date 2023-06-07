@@ -6,7 +6,7 @@ export const Container = styled.header`
 
   border-bottom-width:1px;
   border-bottom-style: solid;
-  border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+  border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
 
   display: flex;
   align-items: center;
@@ -25,6 +25,9 @@ export const Container = styled.header`
 export const Profile = styled.div`
   display: flex;
   
+  strong {
+    color: ${({ theme }) => theme.COLORS.PINK}
+  }
 
   > img {
     width: 56px;

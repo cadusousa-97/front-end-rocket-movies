@@ -19,6 +19,10 @@ export const Form = styled.form`
     font-size: 48px;
     color: ${({ theme }) => theme.COLORS.PINK};
   }
+  
+  svg {
+    color: ${({ theme }) => theme.COLORS.GRAY_100};
+  }
 
   > h2 {
     font-size: 24px;

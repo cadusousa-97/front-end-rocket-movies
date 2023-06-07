@@ -12,7 +12,14 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     padding: 0 124px;
-    
+
+    a {
+      text-decoration: none;
+      color: ${({ theme }) => theme.COLORS.PINK};
+      display: flex;
+      align-items: center;
+    }
+
     svg {
     color: ${({ theme }) => theme.COLORS.PINK};
     font-size: 24px;
@@ -23,6 +30,10 @@ export const Container = styled.div`
 export const Form = styled.form`
   max-width: 340px;
   margin: 30px auto 0;
+
+  svg {
+    color: ${({ theme }) => theme.COLORS.GRAY_100};
+  }
 
   > div:nth-child(4){
     margin-top: 24px;

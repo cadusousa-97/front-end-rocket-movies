@@ -1,6 +1,6 @@
 import { Container, Form } from "./styles";
+import { Link } from "react-router-dom";
 import { FiArrowLeft, FiPlus, FiX } from "react-icons/fi"
-
 import { Header } from "../../components/Header"
 import { Input } from "../../components/Input"
 import { Button } from "../../components/Button/"
@@ -10,7 +10,7 @@ export function CreateMovie() {
     <>
     <Header />
     <Container>
-      <a href="#"> <FiArrowLeft /> Voltar</a>
+      <Link to="/"> <FiArrowLeft /> Voltar</Link>
       <h1> Novo Filme</h1>
       <Form>
       <div>

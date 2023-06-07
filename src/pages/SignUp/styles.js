@@ -15,6 +15,10 @@ export const Form = styled.form`
   align-items: start;
   text-align: left;
 
+   svg {
+    color: ${({ theme }) => theme.COLORS.GRAY_100};
+  }
+
   > h1 {
     font-size: 48px;
     color: ${({ theme }) => theme.COLORS.PINK};

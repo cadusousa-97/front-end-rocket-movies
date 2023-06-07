@@ -1,4 +1,5 @@
 import { Container, Content } from './styles'
+import { Link } from "react-router-dom";
 import { FiPlus } from "react-icons/fi"
 import { Header } from '../../components/Header'
 import { Button } from '../../components/Button'
@@ -13,10 +14,12 @@ export function Home() {
     <Container>
       <div>
       <h1>Meus Filmes</h1>
+      <Link to="/createmovie">
       <Button>
       <FiPlus />
       Adicionar filme
       </Button>
+      </Link>
       </div>
       <Content className='scroll'>
       

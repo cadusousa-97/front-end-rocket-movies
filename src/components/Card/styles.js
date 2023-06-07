@@ -26,8 +26,10 @@ export const Container = styled.div`
   font-size: 16px;
   font-family: 'Roboto', serif;
   color: ${({ theme }) => theme.COLORS.GRAY_100};
+  margin-top: 15px;
   margin-bottom: 15px;
   line-height: 19px;
+  
   
 
  }
